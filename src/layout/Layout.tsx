@@ -20,7 +20,7 @@ export default function Layout({ children }: Props) {
   return (
     <>
       <Header />
-      <main className={poppins.style.fontFamily}>{children}</main>
+      <main className={`${poppins.style.fontFamily} `}>{children}</main>
       <Footer />
     </>
   );

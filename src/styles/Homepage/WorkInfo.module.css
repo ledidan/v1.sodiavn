@@ -1,0 +1,43 @@
+/* feature list */
+.featureImage {
+  margin-right: -100px;
+}
+.featureContent h3 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+.featureContent span {
+  display: block;
+  color: #ff5b5b;
+  margin-bottom: 17px;
+}
+.featureContent p {
+  margin-bottom: 40px;
+}
+.shapeC4 {
+  right: 18%;
+  top: 5%;
+  background: #ffd0d0;
+  -webkit-animation: animationFramesTwo 30s alternate infinite linear;
+  animation: animationFramesTwo 30s alternate infinite linear;
+}
+
+.featureListIcon {
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.featureListIcon:after {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0;
+  background: #ff7200;
+  content: "";
+  height: 2px;
+  width: 100px;
+}

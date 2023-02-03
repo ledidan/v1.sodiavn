@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={`${styles.homeHeader}`}>
-      <div className="container.lg mx-auto">
+      <div className="container mx-auto">
         <div className={`${styles.headerWrapper}`}>
           <div className="flex grid-row-3 items-center justify-evenly">
             <div className="col-span-3">

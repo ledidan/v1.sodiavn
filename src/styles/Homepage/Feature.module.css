@@ -1,9 +1,24 @@
 /* Start Feature Area
 ==================================================*/
-.feature-img {
-  margin-left: -120px;
+
+.sectionTitle span {
+  color: #ff5b5b;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
 }
-.feature-icon span {
+
+.sectionTitle h2 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.featureIcon span {
   background: #fbe8ff;
   display: inline-block;
   height: 55px;
@@ -11,10 +26,10 @@
   border-radius: 50%;
 }
 
-.feature-icon {
+.featureIcon {
   position: relative;
 }
-.feature-icon img {
+.featureIcon img {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -23,49 +38,41 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.single-feature-item:hover .feature-icon img {
+.singleItem:hover .featureIcon img {
   left: 20px;
 }
-.feature-content h4 {
+.featureContent h4 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.feature-content p {
+.featureContent p {
   margin-bottom: 0;
 }
-.feature-parents .col-md-6:nth-child(1) .feature-icon span {
-  background: #eef5ff;
-}
-.feature-parents .col-md-6:nth-child(2) .feature-icon span {
+.featureIcon span {
   background: #ffe7e7;
 }
-.feature-parents .col-md-6:nth-child(3) .feature-icon span {
-  background: #fbe8ff;
-}
-.feature-parents .col-md-6:nth-child(4) .feature-icon span {
-  background: #ffefdb;
-}
-.shape-af-1 {
+
+.shapeAf1 {
   left: 13px;
   top: 50%;
   animation: animationFramesOne 30s alternate infinite linear;
   -webkit-animation: animationFramesOne 30s alternate infinite linear;
 }
-.shape-af-2 {
+.shapeAf {
   right: 12%;
   top: 31%;
   animation: animationFramesOne 30s alternate infinite linear;
   -webkit-animation: animationFramesOne 30s alternate infinite linear;
 }
-.shape-circle {
+.shapeCircle {
   height: 20px;
   width: 20px;
   background: #c2e7ff;
   border-radius: 50%;
   display: inline-block;
 }
-.shape-c-2 {
+.shapeC2 {
   left: 18%;
   top: 15%;
   background: #ffc2c2;

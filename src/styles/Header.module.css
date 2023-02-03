@@ -1,0 +1,222 @@
+/* Start Header Area
+==================================================*/
+.headerWrapper {
+  position: relative;
+  width: 100%;
+}
+.mainMenu li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.mainMenu li > a {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-pop);
+  color: #2c303e;
+  padding: 30px 0;
+  display: block;
+  position: relative;
+}
+.mainMenu li:hover > a {
+  color: #00c867;
+}
+.mainMenu li ul.submenu,
+.mainMenu li ul.megaMenu {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  min-width: 240px;
+  background: #fff;
+  border-top: 3px solid #00c867;
+  text-align: left;
+  box-shadow: 0px 15px 30px 0px rgba(0, 3, 143, 0.1);
+  padding: 15px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+}
+.mainMenu li ul.megaMenu li {
+  margin: 0;
+  display: block;
+}
+
+.mainMenu li ul.megaMenu li.megaMenuTitle ul li > a {
+  padding: 6px 20px;
+  display: block;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.mainMenu li ul.megaMenu li.megaMenuTitle > a {
+  text-transform: capitalize;
+  color: #233d63;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 20px;
+}
+
+.mainMenu li ul.megaMenu {
+  width: 100%;
+  margin: 0;
+}
+.mainMenu li:hover ul.submenu,
+.mainMenu li:hover ul.megaMenu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+.mainMenu li ul.submenu li {
+  display: block;
+  margin: 0;
+  position: relative;
+}
+.mainMenu li ul.submenu li a {
+  display: block;
+  text-transform: capitalize;
+  padding: 6px 25px;
+  position: relative;
+}
+.mainMenu li ul.submenu li ul.submenu {
+  position: absolute;
+  left: 100%;
+  top: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.mainMenu li ul.submenu li:hover ul.submenu {
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+.mainMenu li ul.submenu li.menuChildren > a:before {
+  content: "\f054";
+  font-family: var(--font-awesome);
+  font-weight: 700;
+  float: right;
+  margin-top: 1px;
+  font-size: 12px;
+}
+.header-absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+.headerArea.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  z-index: 99;
+}
+/* home 2 */
+.homeHeader .mainMenu li:hover > a {
+  color: #ff5b5b;
+}
+.homeHeader .mainMenu li ul.submenu,
+.homeHeader .mainMenu li ul.megaMenu {
+  border-top: 3px solid #ff5b5b;
+}
+.homeHeader {
+  padding: 10px 0;
+}
+.homeHeader.sticky {
+  padding: 0;
+}
+
+/* Start Mobile Menu Area
+==================================================*/
+.show-mobile-menu .slicknav_nav .slicknav_row:hover {
+  border-radius: 0;
+}
+.show-mobile-menu {
+  padding: 20px 0;
+}
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #333;
+}
+.show-mobile-menu .slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+
+.show-mobile-menu .slicknav_btn {
+  background: none;
+  margin: 0;
+  text-shadow: 0 0 0;
+  padding: 0;
+}
+
+.show-mobile-menu .slicknav_menu .slicknav_icon {
+  font-size: 20px;
+}
+.show-mobile-menu .slicknav_menu {
+  background: none;
+}
+
+.show-mobile-menu .slicknav_menu .slicknav_icon-bar {
+  border-radius: 0;
+  box-shadow: 0 0 0;
+}
+.show-mobile-menu .slicknav_nav ul {
+  margin: 0 10px;
+}
+.show-mobile-menu .slicknav_nav a {
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.show-mobile-menu .slicknav_nav .slicknav_row {
+  padding: 10px 3px;
+}
+
+.show-mobile-menu .slicknav_nav {
+  font-size: inherit;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 71px;
+  background: #fff;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+}
+
+.show-mobile-menu .slicknav_nav li {
+  border-bottom: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+.show-mobile-menu .slicknav_nav li:last-child {
+  border: none;
+}
+.header-area .static {
+  position: static;
+}
+.header-area .header-wrapper {
+  position: relative;
+  width: 100%;
+}
+.show-mobile-menu .slicknav_nav li a i {
+  display: none;
+}
+.show-mobile-menu .mega-menu-banner {
+  display: none;
+}
+.show-mobile-menu .slicknav_nav li ul li {
+  border: none;
+}

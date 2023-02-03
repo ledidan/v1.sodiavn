@@ -1,0 +1,83 @@
+/* Start Slider Area
+==================================================*/
+.sliderArea {
+  position: relative;
+}
+.slider-height-7 {
+  min-height: 950px;
+}
+.sliderText h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #1c3354;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.sliderText h2 span {
+  color: #00c867;
+  display: block;
+}
+.sliderText p {
+  margin-bottom: 40px;
+}
+.slider-img img {
+  margin-right: -50px;
+  max-width: inherit;
+}
+.shape {
+  position: absolute;
+}
+.shape1 {
+  left: 20%;
+  top: 27%;
+  -webkit-animation: animationFramesOne 30s alternate infinite linear;
+  animation: animationFramesOne 30s alternate infinite linear;
+}
+.shape2 {
+  left: 3%;
+  top: 50%;
+  -webkit-animation: animationFramesTwo 30s alternate infinite linear;
+  animation: animationFramesTwo 30s alternate infinite linear;
+}
+.shape3 {
+  left: 20%;
+  bottom: 20%;
+  -webkit-animation: animationFramesThree 30s alternate infinite linear;
+  animation: animationFramesThree 30s alternate infinite linear;
+}
+.shape4 {
+  left: 50%;
+  bottom: 11%;
+  -webkit-animation: animationFramesOne 30s alternate infinite linear;
+  animation: animationFramesOne 30s alternate infinite linear;
+}
+.shape5 {
+  right: 5%;
+  top: 11%;
+  -webkit-animation: animationFramesFive 30s alternate infinite linear;
+  animation: animationFramesFive 30s alternate infinite linear;
+}
+.shape6 {
+  right: 15%;
+  bottom: 11%;
+  -webkit-animation: animationFramesOne 30s alternate infinite linear;
+  animation: animationFramesOne 30s alternate infinite linear;
+}
+/* slider Home 2 */
+.sliderHeight {
+  min-height: 725px;
+}
+.singleSlider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  background-image: url("/slider/hero.png");
+}
+.sliderText h2,
+.sliderText h2 span {
+  color: #fff;
+}
+.sliderImg-1 {
+  margin-right: 0;
+  margin-bottom: -215px;
+}

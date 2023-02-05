@@ -1,9 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
+  const [sticky, setSticky] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
     return () => {
@@ -11,15 +13,12 @@ export default function Header() {
     };
   });
 
-  const isSticky = (e: React.FormEvent<HTMLElement>) => {
-    const header = document.querySelector(`.headerDom`);
+  const isSticky = () => {
     const scrollTop = window.scrollY;
-    scrollTop >= 250
-      ? header?.classList.add("isSticky")
-      : header?.classList.remove("isSticky");
+    scrollTop >= 250 ? setSticky(true) : setSticky(false);
   };
   return (
-    <header className={`${styles.homeHeader} headerDom `}>
+    <header className={`${styles.homeHeader} ${!!sticky ? "isSticky" : ""}`}>
       <div className="container mx-auto">
         <div className={`${styles.headerWrapper}`}>
           <div className="flex grid-row-3 items-center justify-evenly">

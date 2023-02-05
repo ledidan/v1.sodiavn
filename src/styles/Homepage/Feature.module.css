@@ -1,31 +1,6 @@
 /* Start Feature Area
 ==================================================*/
 
-.sectionTitle span {
-  color: #ff5b5b;
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
-  margin-bottom: 20px;
-}
-
-.sectionTitle h2 {
-  font-size: 36px;
-  line-height: 1.3;
-  margin-bottom: 0;
-  font-weight: 500;
-}
-
-.featureIcon span {
-  background: #fbe8ff;
-  display: inline-block;
-  height: 55px;
-  width: 55px;
-  border-radius: 50%;
-}
-
 .featureIcon {
   position: relative;
 }
@@ -48,9 +23,6 @@
 }
 .featureContent p {
   margin-bottom: 0;
-}
-.featureIcon span {
-  background: #ffe7e7;
 }
 
 .shapeAf1 {
@@ -78,4 +50,33 @@
   background: #ffc2c2;
   animation: animationFramesTwo 30s alternate infinite linear;
   -webkit-animation: animationFramesTwo 30s alternate infinite linear;
+}
+
+.featureIcon-1 {
+  background: #eef5ff;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.featureIcon-2 {
+  background: #ffe7e7;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.featureIcon-3 {
+  background: #fbe8ff;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+}
+.featureIcon-4 {
+  background: #ffefdb;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
 }

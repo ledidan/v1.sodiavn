@@ -462,3 +462,35 @@ textarea:focus {
 }
 
 /* End Default Css */
+
+// Section Title
+
+.sectionTitle h2 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.sectionTitle span {
+  color: #ff5b5b;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+}
+.isSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  transition: all 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  background-color: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

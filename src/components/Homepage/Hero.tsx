@@ -38,7 +38,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center justify-evenly">
               <div className="xl:w-2/5 pr-4 pl-4 lg:w-1/2 ">
                 <div className={`${styles.sliderText}`}>
-                  <h2 className="wow fadeInUp " data-wow-delay="1s">
+                  <h2>
                     <span>Effortlessly</span> Manages All Your Information
                   </h2>
                   <a href="#" className="font-extrabold btn btn-squ-bg">

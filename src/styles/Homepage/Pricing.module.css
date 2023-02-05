@@ -1,0 +1,34 @@
+/* pricing home-2 */
+.priceTabMenu li a {
+  border: 1px solid #ddd;
+  padding: 18px 40px;
+  display: inline-block;
+  color: #ff5b5b;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 1;
+}
+.priceTabMenu li a:hover {
+  background: #ff5b5b;
+  border-color: #ff8484;
+  color: #fff;
+}
+.priceTabMenu {
+  margin-bottom: 60px;
+}
+.priceTabMenu li {
+  margin: 0 10px;
+}
+
+.priceImg::after {
+  position: absolute;
+  top: -180px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 150px;
+  height: 1px;
+  content: "";
+  background: #dee2e8;
+  margin: auto;
+}

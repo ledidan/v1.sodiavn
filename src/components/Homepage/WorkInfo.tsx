@@ -29,22 +29,22 @@ export default function WorkInfo() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 pr-4 pl-4">
-              <div className="featureImage pl-10 mb-28" data-wow-delay="1s">
+            <div className="lg:w-3/2 pr-4 pl-4">
+              <div className="featureImage pl-10 mb-28">
                 <img src="/bg/fea-list-right-img.png" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="feature-list-area relative fix">
+      <section className="feature-list-area relative">
         <div className="shape-action">
           <span className="shape shape-circle shapeC4 " />
         </div>
         <div className="container mx-auto sm:px-4">
-          <div className="flex flex-wrap  items-center">
-            <div className="lg:w-1/2 pr-4 pl-4 lg:order-2">
-              <div className="featureContent mb-30 ">
+          <div className="flex flex-wrap justify-center  items-center">
+            <div className="lg:w-1/3 pr-4 pl-4 lg:order-2">
+              <div className={`${styles.featureContent} mb-10`}>
                 <div className={`${styles.featureListIcon} mb-24`}>
                   <span />
                   <img src="/icons/fea-list.png" />
@@ -66,7 +66,7 @@ export default function WorkInfo() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 pr-4 pl-4">
+            <div className="lg:w-1/2  pr-4 pl-4">
               <div className="featureImage-left pr-5 mb-28">
                 <img src="/bg/fea-list-left-img.png" />
               </div>
